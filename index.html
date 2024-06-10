@@ -34,7 +34,14 @@
             /* BIO STYLES */
             .bio-wrapper {
                 font-size: 24px;
-                overflow: hidden;
+            }
+            .bio-wrapper:after {
+                visibility: hidden;
+                display: block;
+                font-size: 0;
+                content: " ";
+                clear: both;
+                height: 0;
             }
             .bio-box {
                 border: 1px solid black;
@@ -125,6 +132,5 @@
             <p>
                 Learn Enough to Be Dangerous is an outgrowth of the <a href="https://wwww.railstutorial.org/">Ruby on Rails Tutorial</a> and the <a href="https://wwww.softcover.io/">Softcover publishing platform</a>. This page is part of the sample site for <a href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and Layout to Be Dangerous</em></a>, which teaches the basics of <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets, the language that allows web pages to be styled. Other related tutorials can be found at <a href="https://learnenough.com/">learnenough.com</a>
             </p>
-
     </body>
 </html>
