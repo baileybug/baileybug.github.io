@@ -28,7 +28,7 @@
                 background: rgba(150, 150, 150, 0.5);
                 border-radius: 99px;
                 box-sizing: border-box;
-                color: blue;
+                color: #fff; 
                 display: inline-block;
                 font-family: helvetica, arial, sans;
                 font-size: 1rem;
@@ -58,21 +58,14 @@
                 max-width: 960px;
                 overflow: hidden;
             }
-            .bio-wrapper:after {
-                visibility: hidden;
-                display: block;
-                font-size: 0;
-                content: " ";
-                clear: both;
-                height: 0;
-            }
             .bio-box {
                 border: 1px solid black;
+                border-color: black black red;
                 box-sizing: border-box;
                 float: left;
                 font-size: 1rem;
                 margin: 40px 1% 0;
-                padding: 2%;
+                padding: 0 2% 2%;
                 width: 23%;
             }
             .bio-box h3 {
@@ -86,6 +79,7 @@
             }
             .bio-copy {
                 font-size: 1em;
+                line-height: 1.5;
             }
             .bio-copy a {
                 color: green;
