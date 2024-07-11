@@ -1,1 +1,1 @@
-# baileybug.github.io
+<a href="https://www.learnenough.com/certificates/barmeli"><img src="https://www.learnenough.com/certificates/barmeli/html-tutorial.svg" alt="Certificate of Completion for Learn Enough HTML"></a><a href="https://www.learnenough.com/certificates/barmeli"><img src="https://www.learnenough.com/certificates/barmeli/css-and-layout-tutorial.svg" alt="Certificate of Completion for Learn Enough CSS &amp; Layout"></a>
